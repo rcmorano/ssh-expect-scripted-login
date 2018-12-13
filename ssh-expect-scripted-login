@@ -7,7 +7,7 @@
 if [[ -z "$SSH_URI" ]] || [[ -z "$SSH_USER" ]] || [[ -z "$SSH_PASS" ]]
 then
   echo "[!] Please, provide the following environment variables:"
-  echo '    - $SSH_URI'
+  echo '    - $SSH_URI (hostname:port)'
   echo '    - $SSH_USER'
   echo '    - $SSH_PASS'
   echo '    - [$SSH_ARGS]'
